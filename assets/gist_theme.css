@@ -1,0 +1,313 @@
+body .gist .gist-file {
+	border: none;
+	border-bottom: none;
+}
+
+body .gist .gist-data {
+	background: hsl(189, 20%, 9%);
+	border-radius: 5px;
+	color: #e0e2e4;
+	font-size: 14px;
+	line-height: 1.4;
+	padding: 16px 16px 0;
+}
+
+body .gist .gist-data .blob-wrapper {
+	max-width: 100%;
+	padding-bottom: 16px;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+body .gist .highlight {
+	background: hsl(189, 20%, 9%);
+	max-width: 800px;
+	overflow-x: scroll;
+	border: none;
+}
+
+body .gist .highlight td,
+body .gist .highlight tbody {
+	border: none;
+}
+
+body .gist .blob-num,
+body .gist .blob-code-inner,
+body .gist .pl-ent,
+body .gist .pl-s1,
+body .gist .pl-s1 .pl-s2,
+body .gist .pl-smi,
+body .gist .pl-smp,
+body .gist .pl-stj,
+body .gist .pl-vo,
+body .gist .pl-vpf {
+	color: #e0e2e4;
+	font-size: 15px;
+}
+
+body .gist .blob-num::selection,
+body .gist .blob-code-inner::selection,
+body .gist .pl-ent::selection,
+body .gist .pl-s1::selection,
+body .gist .pl-s1 .pl-s2::selection,
+body .gist .pl-smi::selection,
+body .gist .pl-smp::selection,
+body .gist .pl-stj::selection,
+body .gist .pl-vo::selection,
+body .gist .pl-vpf::selection {
+	color: #e0e2e4;
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-c,
+body .gist .pl-c span {
+	color: #e0e2e4;
+	font-style: italic;
+	font-size: 15px;
+}
+
+body .gist .pl-c::selection,
+body .gist .pl-c span::selection {
+	color: #e0e2e4;
+	font-style: italic;
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-mb {
+	color: hsl(0, 58%, 55%);
+	font-weight: 700;
+	font-size: 15px;
+}
+
+body .gist .pl-mb::selection {
+	color: hsl(0, 58%, 55%);
+	font-weight: 700;
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-mh .pl-en {
+	color: #e0e2e4;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+body .gist .pl-mh .pl-en::selection {
+	color: #e0e2e4;
+	font-weight: 700;
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-mi {
+	color: hsl(207, 90%, 77%);
+	font-style: italic;
+	font-size: 15px;
+}
+
+body .gist .pl-mi::selection {
+	color: hsl(207, 90%, 77%);
+	font-style: italic;
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-sc {
+	color: #e0e2e4;
+	font-size: 15px;
+}
+
+body .gist .pl-sc::selection {
+	color: #e0e2e4;
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-st {
+	color: hsl(0, 58%, 55%);
+	font-size: 15px;
+}
+
+body .gist .pl-st::selection {
+	color: hsl(0, 58%, 55%);
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-c1 > .pl-c1 {
+	color: hsl(207, 90%, 77%);
+	font-size: 15px;
+}
+
+body .gist .pl-c1 > .pl-c1::selection {
+	color: hsl(207, 90%, 77%);
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-c1,
+body .gist .pl-sr .pl-cce {
+	color: hsl(44, 79%, 62%);
+	font-size: 15px;
+}
+
+body .gist .pl-c1::selection,
+body .gist .pl-sr .pl-cce::selection {
+	color: hsl(44, 79%, 62%);
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-e,
+body .gist .pl-k,
+body .gist .pl-mdh,
+body .gist .pl-mdr,
+body .gist .pl-ml,
+body .gist .pl-mm,
+body .gist .pl-mo,
+body .gist .pl-mp,
+body .gist .pl-mr,
+body .gist .pl-ms,
+body .gist .pl-s1 .pl-v,
+body .gist .pl-s3 {
+	color: hsl(207, 90%, 77%);
+	font-size: 15px;
+}
+
+body .gist .pl-e::selection,
+body .gist .pl-k::selection,
+body .gist .pl-mdh::selection,
+body .gist .pl-mdr::selection,
+body .gist .pl-ml::selection,
+body .gist .pl-mm::selection,
+body .gist .pl-mo::selection,
+body .gist .pl-mp::selection,
+body .gist .pl-mr::selection,
+body .gist .pl-ms::selection,
+body .gist .pl-s1 .pl-v::selection,
+body .gist .pl-s3::selection {
+	color: hsl(207, 90%, 77%);
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-en,
+body .gist .pl-v {
+	color: hsl(207, 90%, 77%);
+	font-size: 15px;
+}
+
+body .gist .pl-en::selection,
+body .gist .pl-v::selection {
+	color: hsl(207, 90%, 77%);
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-mh,
+body .gist .pl-mq {
+	color: #e0e2e4;
+	font-size: 15px;
+}
+
+body .gist .pl-mh::selection,
+body .gist .pl-mq::selection {
+	color: #e0e2e4;
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-pds,
+body .gist .pl-s,
+body .gist .pl-s1 .pl-pse .pl-s2,
+body .gist .pl-sv {
+	color: hsl(0, 58%, 55%);
+	font-size: 15px;
+}
+
+body .gist .pl-pds::selection,
+body .gist .pl-s::selection,
+body .gist .pl-s1 .pl-pse .pl-s2::selection,
+body .gist .pl-sv::selection {
+	color: hsl(0, 58%, 55%);
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-sr,
+body .gist .pl-sr .pl-sra,
+body .gist .pl-sr .pl-sre,
+body .gist .pl-src {
+	color: hsl(44, 79%, 62%);
+	font-size: 15px;
+}
+
+body .gist .pl-sr::selection,
+body .gist .pl-sr .pl-sra::selection,
+body .gist .pl-sr .pl-sre::selection,
+body .gist .pl-src::selection {
+	color: hsl(44, 79%, 62%);
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-mi1,
+body .gist .pl-mdht {
+	color: #e0e2e4;
+	background: rgba(241, 216, 102, 0.5);
+	font-size: 15px;
+}
+
+body .gist .pl-mi1::selection,
+body .gist .pl-mdht::selection {
+	color: #e0e2e4;
+	background: rgba(241, 216, 102, 0.5);
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-md,
+body .gist .pl-mdhf,
+body .gist .pl-id,
+body .gist .pl-ii {
+	color: #e0e2e4;
+	background: rgba(241, 216, 102, 0.5);
+	font-size: 15px;
+}
+
+body .gist .pl-md::selection,
+body .gist .pl-mdhf::selection,
+body .gist .pl-id::selection,
+body .gist .pl-ii::selection {
+	color: #e0e2e4;
+	background: rgba(241, 216, 102, 0.5);
+	font-size: 15px;
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .pl-kos::selection {
+	background-color: hsla(0, 100%, 100%, 0.2);
+}
+
+body .gist .gist-meta {
+	visibility: hidden;
+	height: 0;
+	width: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body .gist .gist-meta a {
+	color: hsl(0, 58%, 55%);
+}
+
+body .gist .gist-meta a:hover {
+	text-decoration: none;
+}
+
+body .gist .js-line-number:hover {
+	color: #e0e2e4;
+	cursor: auto;
+}

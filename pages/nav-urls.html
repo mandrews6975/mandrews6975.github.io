@@ -4,6 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="theme-color" content="hsl(207, 90%, 77%)" />
 		<title>Michael Andrews - Nav-URLs</title>
+		<link rel="shortcut icon" href="../assets/favicon.ico" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
@@ -13,10 +14,18 @@
 		<link rel="stylesheet" href="../assets/global.css" />
 		<link rel="stylesheet" href="../assets/gist_theme.css" />
 		<style>
+			.task-list-item {
+				list-style-type: none;
+			}
+			.task-list-item-checkbox {
+				margin-left: -20px;
+				vertical-align: middle;
+			}
 			.print-result-container {
 				background-color: hsl(189, 20%, 9%);
 				padding: 8px;
 				border-radius: 5px;
+				border-left: 8px solid hsl(0, 37%, 97%);
 			}
 			.readme-header {
 				display: flex;
@@ -58,275 +67,216 @@
 			>
 		</nav>
 		<div class="content">
-			<div class="readme-header">
-				<h2 id="nav-urls">Nav-URLs</h2>
-				<div>
-					<button
-						onclick="window.location.href='https://github.com/mandrews6975/Nav-URLs'"
-						aria-label="go to GitHub repo"
-					>
-						<svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
-							<path
-								fill="currentColor"
-								d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
-							/>
-						</svg>
-					</button>
-					<button
-						onclick="window.location.href='https://www.npmjs.com/package/@mandrews6975/nav-urls'"
-						aria-label="go to NPM package"
-					>
-						<svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
-							<path
-								fill="currentColor"
-								d="M4,10V14H6V11H7V14H8V10H4M9,10V15H11V14H13V10H9M12,11V13H11V11H12M14,10V14H16V11H17V14H18V11H19V14H20V10H14M3,9H21V15H12V16H8V15H3V9Z"
-							/>
-						</svg>
-					</button>
+			<p><a href="https://github.com/mandrews6975/Nav-URLs/graphs/contributors"><img src="https://img.shields.io/github/contributors/mandrews6975/Nav-URLs.svg?style=for-the-badge" alt="Contributors"></a>
+				<a href="https://github.com/mandrews6975/Nav-URLs/network/members"><img src="https://img.shields.io/github/forks/mandrews6975/Nav-URLs.svg?style=for-the-badge" alt="Forks"></a>
+				<a href="https://github.com/mandrews6975/Nav-URLs/stargazers"><img src="https://img.shields.io/github/stars/mandrews6975/Nav-URLs.svg?style=for-the-badge" alt="Stargazers"></a>
+				<a href="https://github.com/mandrews6975/Nav-URLs/issues"><img src="https://img.shields.io/github/issues/mandrews6975/Nav-URLs.svg?style=for-the-badge" alt="Issues"></a>
+				<a href="https://github.com/mandrews6975/Nav-URLs/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mandrews6975/Nav-URLs.svg?style=for-the-badge" alt="MIT License"></a></p>
+				<!-- PROJECT LOGO -->
+				<br />
+				<p align="center">
+				  <a href="https://github.com/mandrews6975/nav-urls">
+					 <img src="https://raw.githubusercontent.com/mandrews6975/Nav-URLs/master/assets/icon.png" alt="Logo" width="80" height="80">
+				  </a>
+				  <h3 align="center">Nav-URLs</h3>
+				  <p align="center">
+					 Generate navigation URLs for various map platforms such as Google Maps.
+					 <br />
+					 <br />
+					 <a class="link" href="https://github.com/mandrews6975/nav-urls/issues">Report Bug</a>
+					 ·
+					 <a class="link" href="https://github.com/mandrews6975/nav-urls/issues">Request Feature</a>
+				  </p>
+				</p>
+				<!-- TABLE OF CONTENTS -->
+				<details open="open">
+				  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+				  <ol>
+					 <li>
+						<a class="link" href="#about-the-project">About The Project</a>
+						<ul>
+						  <li><a class="link" href="#built-with">Built With</a></li>
+						</ul>
+					 </li>
+					 <li><a class="link" href="#installation">Installation</a></li>
+					 <li><a class="link" href="#function-reference">Function Reference</a></li>
+					 <li><a class="link" href="#usage">Usage</a></li>
+					 <li><a class="link" href="#license">License</a></li>
+					 <li><a class="link" href="#contact">Contact</a></li>
+					 <li><a class="link" href="#acknowledgements">Acknowledgements</a></li>
+					 <li><a class="link" href="#open-source-licenses">Open Source Licenses</a></li>
+				  </ol>
+				</details>
+				<!-- ABOUT THE PROJECT -->
+				<h2 id="about-the-project">About The Project</h2>
+				<p>Nav-URLs generates navigation URLs for various map platforms. Currently, supported platforms include Google Maps, Apple Maps, and Bing Maps. Navigation routes can be generated by raw ordering or distance optimization. Generation of optimized navigation route URLs <strong>requires a MapQuest Developer API key</strong>. You can register and obtain a free MapQuest API key <strong><a class="link" href="https://developer.mapquest.com/">here.</a></strong></p>
+				<h3 id="built-with">Built With</h3>
+				<ul>
+				<li><a class="link" href="https://www.npmjs.com/package/node-fetch">node-fetch - ^2.6.1</a></li>
+				<li><a class="link" href="https://www.npmjs.com/package/xmlhttprequest">xmlhttprequest - ^1.8.0</a></li>
+				</ul>
+				<!-- Installation -->
+				<h2 id="installation">Installation</h2>
+				<p>Install via NPM:</p>
+				<code>npm install @mandrews6975/nav-urls</code>
+				<!-- FUNCTION REFERENCE -->
+				<h2 id="function-reference">Function Reference</h2>
+				<p>There are two preferred functions for generating navigation URLs (raw-ordered and optimized) and two deprecated functions that provide essentially the same functionality.</p>
+				<h3 id="getrouteurllocations-options"><strong><code class="code-header">getRouteURL(locations, options)</code></strong></h3>
+				<p>Returns a raw-ordered navigation URL for the specified platform and locations.</p>
+				<ul>
+				<li><strong>Parameters</strong>
+				<ul>
+				<li><strong>locations</strong>
+				<ul>
+				<li>Type: <code>string[]</code></li>
+				<li>Description: locations/addresses written in formats standard map platforms understand (route is ordered from <code>locations[0]</code> to <code>locations[n]</code>)</li>
+				</ul>
+				</li>
+				<li><strong>options</strong>
+				<ul>
+				<li>Type: <code>{platform: 'google' | 'apple' | 'bing', travelmode: 'driving' | 'walking' | 'transit' | 'bicycling'}</code>
+				<ul>
+				<li>Note: <code>travelmode: 'bicycling'</code> only supported by Google Maps</li>
+				</ul>
+				</li>
+				<li>Description: object containing platform and travelmode</li>
+				</ul>
+				</li>
+				</ul>
+				</li>
+				<li><strong>Returns</strong>:
+				<ul>
+				<li>Type: <code>string</code></li>
+				<li>Description: raw-ordered navigation URL for the specified platform and locations</li>
+				</ul>
+				</li>
+				</ul>
+				<h3 id="getoptimizedrouteurllocations-key-options-callback"><strong><code class="code-header">getOptimizedRouteURL(locations, key, options, callback)</code></strong></h3>
+				<p>Retrieves an optimized navigation URL for the specified platform and locations and passes said URL into its callback function.</p>
+				<ul>
+				<li><strong>Parameters</strong>
+				<ul>
+				<li><strong>locations</strong>
+				<ul>
+				<li>Type: <code>string[]</code></li>
+				<li>Description: array of locations/addresses written in formats standard map platforms understand (<code>locations[0]</code> is origin, <code>locations[n]</code> is destination, <code>locations[1..n-1]</code> are waypoints to be optimized)</li>
+				</ul>
+				</li>
+				<li><strong>key</strong>: string that is a MapQuest API key (register for a free key <strong><a class="link" href="https://developer.mapquest.com/">here</a></strong>)</li>
+				<li><strong>options</strong>
+				<ul>
+				<li>Type: <code>{platform: 'google' | 'bing', travelmode: 'driving' | 'walking' | 'transit' | 'bicycling'}</code>
+				<ul>
+				<li>Note: <code>travelmode: 'bicycling'</code> only supported by Google Maps</li>
+				</ul>
+				</li>
+				<li>Description: object containing platform and travelmode</li>
+				</ul>
+				</li>
+				<li><strong>callback</strong>
+				<ul>
+				<li>Type: <code>(navURL: string) =&gt; any</code></li>
+				<li>Description: function that will be called after the URL is retrieved (takes the optimized navigation URL as a parameter)</li>
+				</ul>
+				</li>
+				</ul>
+				</li>
+				</ul>
+				<h3 id="deprecated-routenavlocations-options"><strong>[DEPRECATED]</strong> <strong><code class="code-header">routeNav(locations, options)</code></strong></h3>
+				<p>Returns a raw-ordered navigation URL for the specified platform and locations.</p>
+				<ul>
+				<li><strong>Parameters</strong>
+				<ul>
+				<li><strong>locations</strong>
+				<ul>
+				<li>Type: <code>string[]</code></li>
+				<li>Description: locations/addresses written in formats standard map platforms understand (route is ordered from <code>locations[0]</code> to <code>locations[n]</code>)</li>
+				</ul>
+				</li>
+				<li><strong>options</strong>
+				<ul>
+				<li>Type: <code>{platform: 'google' | 'apple' | 'bing', travelmode: 'driving' | 'walking' | 'transit' | 'bicycling'}</code>
+				<ul>
+				<li>Note: <code>travelmode: 'bicycling'</code> only supported by Google Maps</li>
+				</ul>
+				</li>
+				<li>Description: object containing platform and travelmode</li>
+				</ul>
+				</li>
+				</ul>
+				</li>
+				<li><strong>Returns</strong>:
+				<ul>
+				<li>Type: <code>string</code></li>
+				<li>Description: raw-ordered navigation URL for the specified platform and locations</li>
+				</ul>
+				</li>
+				</ul>
+				<h3 id="deprecated-routenavoptlocations-key-options"><strong>[DEPRECATED]</strong> <strong><code class="code-header">routeNavOpt(locations, key, options)</code></strong></h3>
+				<p>Returns an optimized navigation URL (string) for the specified platform and locations.</p>
+				<ul>
+				<li><strong>Parameters</strong>
+				<ul>
+				<li><strong>locations</strong>
+				<ul>
+				<li>Type: <code>string[]</code></li>
+				<li>Description: array of locations/addresses written in formats standard map platforms understand (<code>locations[0]</code> is origin, <code>locations[n]</code> is destination, <code>locations[1..n-1]</code> are waypoints to be optimized)</li>
+				</ul>
+				</li>
+				<li><strong>key</strong>: string that is a MapQuest API key (register for a free key <strong><a class="link" href="https://developer.mapquest.com/">here</a></strong>)</li>
+				<li><strong>options</strong>
+				<ul>
+				<li>Type: <code>{platform: 'google' | 'bing', travelmode: 'driving' | 'walking' | 'transit' | 'bicycling'}</code>
+				<ul>
+				<li>Note: <code>travelmode: 'bicycling'</code> only supported by Google Maps</li>
+				</ul>
+				</li>
+				<li>Description: object containing platform and travelmode</li>
+				</ul>
+				</li>
+				</ul>
+				</li>
+				<li><strong>Returns</strong>:
+				<ul>
+				<li>Type: <code>string</code></li>
+				<li>Description: optimized navigation URL for the specified platform and locations</li>
+				</ul>
+				</li>
+				</ul>
+				<!-- USAGE EXAMPLES -->
+				<h2 id="usage">Usage</h2>
+				<h3 id="example-1"><strong>Example 1</strong></h3>
+				<p>Print raw-ordered Google Maps navigation URL to console:</p>
+				<script src="https://gist.github.com/mandrews6975/2cf295d05e11b11178290c4877ff88ce.js"></script>
+				<p>Result:</p>
+				<div class="print-result-container"><a class="link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Denver&amp;destination=Duck%20Key&amp;travelmode=driving&amp;waypoints=New%20York%20City%7CDes%20Moines%2C%20IA%7CDevil%27s%20Tower">https://www.google.com/maps/dir/?api=1&amp;origin=Denver&amp;destination=Duck Key&amp;travelmode=driving&amp;waypoints=New York City|Des Moines%2C IA|Devil's Tower</a></p>
 				</div>
-			</div>
-			<p>
-				Nav-URLs generates navigation URLs for various map platforms. Currently,
-				supported platforms include Google Maps, Apple Maps, and Bing Maps.
-				Navigation routes can be generated by raw ordering or distance
-				optimization. Generation of optimized navigation route URLs
-				<strong>requires a MapQuest Developer API key</strong>. You can register
-				and obtain a free MapQuest API key
-				<strong
-					><a class="link" href="https://developer.mapquest.com/"
-						>here.</a
-					></strong
-				>
-			</p>
-			<h2 id="installation">Installation</h2>
-			<p><code>npm install @mandrews6975/nav-urls</code></p>
-			<h2 id="functions">Functions</h2>
-			<p>
-				There are two preferred functions for generating navigation URLs (raw
-				ordering and optimized) and two deprecated functions that provide
-				essentially the same functionality:
-			</p>
-			<p>
-				<strong><code>getRouteURL(locations, options)</code></strong
-				>: returns a raw-ordered navigation URL for the specified platform and
-				locations (string)
-			</p>
-			<ul>
-				<li>
-					<strong>locations</strong>: array of locations/addresses (strings)
-					written in formats standard map platforms understand (route is ordered
-					from <code>locations[0]</code> to <code>locations[n]</code>)
-				</li>
-				<li>
-					<strong>options</strong>: object containing platform (string) and
-					travelmode (string) (ex.
-					<code
-						>{platform: &#39;google&#39;, travelmode: &#39;driving&#39;}</code
-					>)
-					<table>
-						<thead>
-							<tr>
-								<th>Options Property</th>
-								<th>Valid Values</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>platform</td>
-								<td>google, bing</td>
-							</tr>
-							<tr>
-								<td>travelmode</td>
-								<td>
-									driving, walking, transit, bicycling (bicycling only supported
-									by Google Maps)
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</li>
-			</ul>
-			<p>
-				<strong
-					><code
-						>getOptimizedRouteURL(locations, key, options, callback)</code
-					></strong
-				>: retrieves an optimized navigation URL (string) for the specified
-				platform and locations and passes said URL into its callback function
-			</p>
-			<ul>
-				<li>
-					<strong>locations</strong>: array of locations/addresses (strings)
-					written in formats standard map platforms understand (<code
-						>locations[0]</code
-					>
-					is origin, <code>locations[n]</code> is destination,
-					<code>locations[1..n-1]</code> are waypoints to be optimized)
-				</li>
-				<li>
-					<strong>key</strong>: string that is a MapQuest API key (register for
-					a free key
-					<strong
-						><a class="link" href="https://developer.mapquest.com/"
-							>here</a
-						></strong
-					>)
-				</li>
-				<li>
-					<strong>options</strong>: object containing platform (string) and
-					travelmode (string) (ex.
-					<code
-						>{platform: &#39;google&#39;, travelmode: &#39;driving&#39;}</code
-					>)
-					<table>
-						<thead>
-							<tr>
-								<th>Options Property</th>
-								<th>Valid Values</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>platform</td>
-								<td>google, bing</td>
-							</tr>
-							<tr>
-								<td>travelmode</td>
-								<td>
-									driving, walking, transit, bicycling (bicycling only supported
-									by Google Maps)
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</li>
-				<li>
-					<strong>callback</strong>: function that will be called after the URL
-					is retrieved (takes the optimized route URL (string) as a parameter)
-				</li>
-			</ul>
-			<p>
-				<strong>(DEPRECATED)</strong>
-				<strong><code>routeNav(locations, options)</code></strong
-				>: returns a raw-ordered navigation URL for the specified platform and
-				locations (string)
-			</p>
-			<ul>
-				<li>
-					<strong>locations</strong>: array of locations/addresses (strings)
-					written in formats standard map platforms understand (route is ordered
-					from <code>locations[0]</code> to <code>locations[n]</code>)
-				</li>
-				<li>
-					<strong>options</strong>: object containing platform (string) and
-					travelmode (string) (ex.
-					<code
-						>{platform: &#39;google&#39;, travelmode: &#39;driving&#39;}</code
-					>)
-					<table>
-						<thead>
-							<tr>
-								<th>Options Property</th>
-								<th>Valid Values</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>platform</td>
-								<td>google, apple, bing</td>
-							</tr>
-							<tr>
-								<td>travelmode</td>
-								<td>
-									driving, walking, transit, bicycling (bicycling only supported
-									by Google Maps)
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</li>
-			</ul>
-			<p>
-				<strong>(DEPRECATED)</strong>
-				<strong><code>routeNavOpt(locations, key, options)</code></strong
-				>: returns an optimized navigation URL (string) for the specified
-				platform and locations
-			</p>
-			<ul>
-				<li>
-					<strong>locations</strong>: array of locations/addresses (strings)
-					written in formats standard map platforms understand (<code
-						>locations[0]</code
-					>
-					is origin, <code>locations[n]</code> is destination,
-					<code>locations[1..n-1]</code> are waypoints to be optimized)
-				</li>
-				<li>
-					<strong>key</strong>: string that is a MapQuest API key (register for
-					a free key
-					<strong
-						><a class="link" href="https://developer.mapquest.com/"
-							>here</a
-						></strong
-					>)
-				</li>
-				<li>
-					<strong>options</strong>: object containing platform (string) and
-					travelmode (string) (ex.
-					<code
-						>{platform: &#39;google&#39;, travelmode: &#39;driving&#39;}</code
-					>)
-					<table>
-						<thead>
-							<tr>
-								<th>Options Property</th>
-								<th>Valid Values</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>platform</td>
-								<td>google, bing</td>
-							</tr>
-							<tr>
-								<td>travelmode</td>
-								<td>
-									driving, walking, transit, bicycling (bicycling only supported
-									by Google Maps)
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</li>
-			</ul>
-			<h2 id="notes">Notes</h2>
-			<p>
-				Apple Maps does not support intermediate waypoints; therefore, if an
-				array of more than two locations is supplied to
-				<code>getRouteURL(locations, options)</code> or
-				<code>routeNav(locations, options)</code>, only the first and final
-				location will be used in the generated route URL.
-			</p>
-			<h2 id="example">Example</h2>
-			<script src="https://gist.github.com/mandrews6975/2cf295d05e11b11178290c4877ff88ce.js"></script>
-			<p>Prints</p>
-			<div class="print-result-container">
-				<p>
-					<a
-						class="link"
-						href="https://www.google.com/maps/dir/?api=1&amp;origin=Denver&amp;destination=Duck%20Key&amp;travelmode=driving&amp;waypoints=New%20York%20City%7CDes%20Moines%2C%20IA%7CDevil%27s%20Tower"
-						>https://www.google.com/maps/dir/?api=1&amp;origin=Denver&amp;destination=Duck%20Key&amp;travelmode=driving&amp;waypoints=New%20York%20City%7CDes%20Moines%2C%20IA%7CDevil%27s%20Tower</a
-					>
-				</p>
-				<p>
-					<a
-						class="link"
-						href="https://www.google.com/maps/dir/?api=1&amp;origin=Denver&amp;destination=Duck%20Key&amp;travelmode=driving&amp;waypoints=Devil%27s%20Tower%7CDes%20Moines%2C%20IA%7CNew%20York%20City"
-						>https://www.google.com/maps/dir/?api=1&amp;origin=Denver&amp;destination=Duck%20Key&amp;travelmode=driving&amp;waypoints=Devil%27s%20Tower%7CDes%20Moines%2C%20IA%7CNew%20York%20City</a
-					>
-				</p>
-			</div>
-			<p>to the console.</p>
+				<h3 id="example-2"><strong>Example 2</strong></h3>
+				<p>Print optimized Google Maps navigation URL to console:</p>
+				<script src="https://gist.github.com/mandrews6975/fde20d19666a33eae22f5a3cde40e9da.js"></script>
+				<p>Result:</p>
+				<div class="print-result-container"><a class="link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Denver&amp;destination=Duck%20Key&amp;travelmode=driving&amp;waypoints=Devil%27s%20Tower%7CDes%20Moines%2C%20IA%7CNew%20York%20City">https://www.google.com/maps/dir/?api=1&amp;origin=Denver&amp;destination=Duck Key&amp;travelmode=driving&amp;waypoints=Devil's Tower|Des Moines%2C IA|New York City</a></p>
+				</div>
+				<!-- LICENSE -->
+				<h2 id="license">License</h2>
+				<p>Distributed under the MIT License. See <code>LICENSE</code> for more information.</p>
+				<!-- CONTACT -->
+				<h2 id="contact">Contact</h2>
+				<p>Michael Andrews - GitHub: <a class="link" href="https://github.com/mandrews6975">mandrews6975</a> - Email: <a class="link" href="mailto:me@michaelandrews.dev">me@michaelandrews.dev</a></p>
+				<p>Project Link: <a class="link" href="https://github.com/mandrews6975/Nav-URLs">https://github.com/mandrews6975/Nav-URLs</a></p>
+				<!-- ACKNOWLEDGEMENTS -->
+				<h2 id="acknowledgements">Acknowledgements</h2>
+				<ul>
+				<li><a class="link" href="https://github.com/othneildrew/Best-README-Template">Best-README-Template</a></li>
+				</ul>
+				<!-- OPEN SOURCE LICENSES -->
+				<h2 id="open-source-licenses">Open Source Licenses</h2>
+				<ul>
+				<li><a class="link" href="https://github.com/node-fetch/node-fetch/blob/master/LICENSE.html">node-fetch</a></li>
+				<li><a class="link" href="https://github.com/driverdan/node-XMLHttpRequest/blob/master/LICENSE">xmlhttprequest</a></li>
+				<li><a class="link"  href="https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt">Best-README-Template</a></li>
+				</ul>
 		</div>
 		<footer class="copyright-statement">
 			<p>Copyright © 2021 Michael Andrews.</p>

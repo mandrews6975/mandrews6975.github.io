@@ -142,8 +142,15 @@ button:hover {
 code {
 	background-color: hsl(189, 20%, 9%);
 	font-size: 19px;
-	padding: 5px;
+	padding: 4px;
 	border-radius: 5px;
+}
+
+.code-header {
+	background-color: hsl(189, 20%, 9%);
+	padding: 4px;
+	border-radius: 5px;
+	border-left: 8px solid hsl(0, 37%, 97%);
 }
 
 th,

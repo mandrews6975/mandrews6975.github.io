@@ -4,6 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="theme-color" content="hsl(207, 90%, 77%)" />
 		<title>Michael Andrews - Home</title>
+		<link rel="shortcut icon" href="assets/favicon.ico" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
@@ -11,6 +12,14 @@
 		/>
 		<link rel="stylesheet" href="assets/global.css" />
 		<style>
+			.portrait {
+				float: left;
+				border-radius: 8px;
+				height: 130px;
+				width: 130px;
+				margin-right: 16px;
+				margin-bottom: 16px;
+			}
 			.email-button {
 				display: flex;
 				flex-direction: row;
@@ -46,7 +55,12 @@
 			<a class="nav-bar-link-inactive fg-darkgray" href="#connect">Contact</a>
 		</nav>
 		<div class="content">
-			<h2>Introduction</h2>
+			<img
+				class="portrait"
+				src="assets/portrait.png"
+				alt="Michael Andrews' picture"
+				title="profile picture"
+			/>
 			<p>
 				Hi! I'm Michael. I am a junior at Iowa State University studying
 				software engineering. I enjoy learning about and working with modern
@@ -55,6 +69,7 @@
 				summer of 2021, I will be working as a software engineer intern for
 				<a class="link" href="https://www.workiva.com/">Workiva, Inc.</a>
 			</p>
+			<br />
 			<h2 id="connect">Connect</h2>
 			<button
 				onclick="window.open('https://github.com/mandrews6975', '_blank')"

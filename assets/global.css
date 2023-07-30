@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
   min-height: 100%;
@@ -15,7 +15,7 @@ body {
 }
 
 .bg-primary {
-  background-color: hsl(365, 90%, 74%);
+  background-color: hsl(37, 13%, 76%);
 }
 
 .fg-darkgray {
@@ -27,7 +27,7 @@ body {
 }
 
 .fg-primary {
-  color: hsl(365, 90%, 74%);
+  background-color: hsl(37, 13%, 76%);
 }
 
 .header {
@@ -120,7 +120,7 @@ body {
 }
 
 button {
-  background-color: hsl(365, 90%, 74%);
+  background-color: hsl(37, 13%, 76%);
   color: hsl(189, 10%, 14%);
   border: none;
   border-radius: 8px;

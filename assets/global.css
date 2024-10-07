@@ -1,169 +1,117 @@
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  padding: 0;
-  margin: 0;
-  min-height: 100%;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
 }
 
 .bg-darkgray {
-  background-color: hsl(189, 10%, 14%);
-}
-
-.bg-gray {
-  background-color: hsl(190, 8%, 28%);
+    background-color: hsl(189, 10%, 14%);
 }
 
 .bg-primary {
-  background-color: hsl(37, 13%, 76%);
+    background-color: hsl(0, 0%, 80%);
 }
 
 .fg-darkgray {
-  color: hsl(189, 10%, 14%);
+    color: hsl(189, 10%, 14%);
 }
 
 .fg-gray {
-  color: hsl(190, 8%, 28%);
-}
-
-.fg-primary {
-  background-color: hsl(37, 13%, 76%);
+    color: hsl(190, 8%, 28%);
 }
 
 .header {
-  padding-top: 1px;
-  padding-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .header-title-container {
-  margin: 0px auto;
-  padding-left: 8px;
-  padding-right: 8px;
-  max-width: 920px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 920px;
 }
 
 .header-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.nav-bar-link-container {
-  margin: 0px auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 8px;
-  padding-right: 8px;
-  max-width: 920px;
+.header-link {
+    text-decoration: none;
 }
 
-.nav-bar-link-inactive {
-  margin-right: 16px;
-  font-size: large;
-  text-decoration: none;
-  color: hsl(0, 37%, 97%);
-  border-bottom: 2px solid hsl(0, 37%, 97%);
-  font-size: 18px;
-}
-
-.nav-bar-link-inactive:hover {
-  margin-right: 16px;
-  font-size: large;
-  text-decoration: none;
-  color: hsl(0, 58%, 55%);
-  border-bottom: 2px solid hsl(0, 58%, 55%);
-  font-size: 18px;
-}
-
-.nav-bar-link-active {
-  margin-right: 16px;
-  font-size: large;
-  font-weight: bold;
-  text-decoration: none;
-  color: hsl(0, 37%, 97%);
-  border-bottom: 4px solid hsl(0, 58%, 55%);
-  font-size: 18px;
+.header-link:visited {
+    color: hsl(189, 10%, 14%);
 }
 
 .link {
-  color: hsl(0, 37%, 97%);
-  text-decoration: none;
-  border-bottom: 4px solid hsl(0, 58%, 55%);
+    color: hsl(0, 37%, 97%);
+    text-decoration: none;
+    border-bottom: 4px solid hsl(203, 58%, 55%);
 }
 
 .link:hover {
-  color: hsl(0, 58%, 55%);
-  text-decoration: none;
-  border-bottom: 4px solid hsl(0, 58%, 55%);
+    color: hsl(203, 58%, 55%);
+    text-decoration: none;
+    border-bottom: 4px solid hsl(203, 58%, 55%);
 }
 
 .content {
-  color: hsl(0, 37%, 97%);
-  margin: 0px auto;
-  padding-left: 8px;
-  padding-right: 8px;
-  max-width: 920px;
-  min-height: 500px;
-  line-height: 25px;
-  font-size: 18px;
+    color: hsl(0, 37%, 97%);
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 920px;
+    min-height: 500px;
+    line-height: 25px;
+    font-size: 18px;
 }
 
 .copyright-statement {
-  color: hsl(0, 37%, 97%);
-  margin: 0px auto;
-  padding-top: 16px;
-  padding-bottom: 32px;
-  padding-left: 8px;
-  padding-right: 8px;
-  max-width: 920px;
-  text-align: center;
+    color: hsl(0, 37%, 97%);
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 920px;
+    text-align: center;
 }
 
 button {
-  background-color: hsl(37, 13%, 76%);
-  color: hsl(189, 10%, 14%);
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  padding: 8px;
+    background-color: hsl(0, 0%, 80%);
+    color: hsl(189, 10%, 14%);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
 }
 
 button:hover {
-  background-color: hsl(0, 58%, 55%);
-  color: hsl(189, 10%, 14%);
-  border: none;
-  border-radius: 8px;
-  font-size: 18px;
-  padding: 8px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-code {
-  background-color: hsl(189, 20%, 9%);
-  font-size: 19px;
-  padding: 4px;
-  border-radius: 5px;
-}
-
-.code-header {
-  background-color: hsl(189, 20%, 9%);
-  padding: 4px;
-  border-radius: 5px;
-  border-left: 8px solid hsl(0, 37%, 97%);
+    background-color: hsl(203, 58%, 55%);
+    color: hsl(189, 10%, 14%);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 th,
 td {
-  color: hsl(0, 37%, 97%);
-  border: 1px solid hsl(0, 37%, 97%);
-  padding: 8px;
+    color: hsl(0, 37%, 97%);
+    border: 1px solid hsl(0, 37%, 97%);
+    padding: 8px;
 }
 
 table {
-  border: 1px solid hsl(0, 37%, 97%);
-  margin-top: 16px;
-  margin-bottom: 16px;
-  border-collapse: collapse;
-  font-size: 18px;
+    border: 1px solid hsl(0, 37%, 97%);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-collapse: collapse;
+    font-size: 18px;
 }
